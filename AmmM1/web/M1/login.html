@@ -21,14 +21,14 @@
         </nav>
         <div>
             <h3>Inserisci qui le tue informazioni di accesso</h3>
-            <br>
-            <form>
-            Email o username <input name="username" type="text" value="Username" size="20" maxlength="50" />
-            Password <input name="password" type="password" value="Password" size="20" maxlength="50" />
-            <input type="submit" value="Accedi">
+            <form method="post">
+                <label for="email_username">Email o username</label>
+                <input id="email_username" name="username" type="text" value="Username" size="20" maxlength="50" />
+                <label for="password">Password</label>
+                <input id="password" name="password" type="password" value="Password" size="20" maxlength="50" />
+                <input type="submit" value="Accedi">
             </form> 
         </div>
-        <br><br><br>
         <div>
             <h4>Se hai dubbi, consulta la pagina di descrizione</h4>
         </div>
