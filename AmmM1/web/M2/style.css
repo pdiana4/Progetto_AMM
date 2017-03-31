@@ -7,4 +7,62 @@ and open the template in the editor.
     Created on : 31-mar-2017, 15.55.25
     Author     : pierlu
 */
+body{
+    background-color: #f2f2f2;
+    font-family: Helvetica, Times, serif;
+}
 
+#BloccoSup{
+    border-style: none;
+    background-color: #ffad1f;
+    color: #ffffff;
+    height: 50px;
+    width: 720px;
+    margin: 0px;
+    display: table;
+    padding: 0px;
+}
+#BloccoTitolo{
+    border-style: solid;
+    border-color: #ffffff;
+    border-width: 1px;
+    background-color: #ffd03f;
+    color: white;
+    height: 50px;
+    width: 180px;
+    float: left;
+    text-align: center;
+    line-height: 50px;
+}
+#BloccoProfilo{
+    border-style: solid;
+    border-width: 1px;
+    border-color:#ffffff;
+    background-color: #ffd03f;
+    color: white;
+    height: 50px;
+    width: 120px;
+    float: left;
+    text-align: center;
+    line-height: 50px;
+   
+}
+#BloccoBacheca{
+    border-style: solid;
+    border-width: 1px;
+    border-color:#ffffff;
+    background-color: #ffd03f;
+    color: white;
+    height: 50px;
+    width: 150px;
+    float: left;
+    text-align: center;
+    line-height: 50px;
+}
+
+.static{
+    
+}
+.relative{
+    position:relative;
+}
