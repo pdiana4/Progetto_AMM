@@ -13,7 +13,54 @@ body{
 }
 #log{
     background-color: #ffad1f;
-}/*
+}
+.fontSin{
+    font-size:14pt;
+    font-weight:bold;
+}
+a:link{
+    color: whitesmoke;
+}
+a:visited {
+    color: grey;
+}
+a:hover {
+    color: red;
+}
+a:active {
+    color: red;
+} 
+#h1centro{
+    text-align: center;
+}
+.barPers{
+    border-style: none;
+}
+.barGrup{
+    border-style: none;
+    
+}
+.fontSin{
+    font-size:14pt;
+    font-weight:bold;
+}
+.row{
+    display:table-row;
+    
+}
+#UpButton{
+    width: 500px;
+    
+    
+}
+#foto{
+    float:left;
+}
+img.resize{
+    width:auto; /* you can use % */
+    height: auto;
+}
+/*
 #BloccoSup{
     border-style: none;
     background-color: #ffad1f;
@@ -113,25 +160,7 @@ body{
     min-height: 30px;
     line-height: 30px;
 }
-.fontSin{
-    font-size:14pt;
-    font-weight:bold;
-}
-a:link{
-    color: whitesmoke;
-}
-a:visited {
-    color: grey;
-}
-a:hover {
-    color: red;
-}
-a:active {
-    color: red;
-} 
-#h1centro{
-    text-align: center;
-}
+
 #bloccoCentrale{
        background: #ffd03f;
        border-style: solid;
@@ -196,17 +225,899 @@ a:active {
     height:240px;
 }
 */
-.barPers{
-    border-style: none;
-}
-.barGrup{
-    border-style: none;
+
+/*----------------------------------------------------------*/
+/*----------------------------------------------------------*/
+/*----------------------------------------------------------*/
+@media only screen and (max-width: 480px) {
     
+    #BloccoSup{
+    border-style: none;
+    background-color: #ffad1f;
+    color: #ffffff;
+    height: 52px;
+    margin: 0px;
+    padding: 0px;
+    margin-left:-8px;
+    margin-right:-8px;
+    margin-top:-8px;
+    font-size:0pt;
 }
-.fontSin{
-    font-size:14pt;
+#BloccoTitolo{
+    border-style: solid;
+    border-color: #ffffff;
+    border-width: 1px;
+    background-color: #ffd03f;
+    color: white;
+    width: 125px;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+    display:inline-block;
+    font-size:16pt;
     font-weight:bold;
 }
-/*----------------------------------------------------------*/
-/*----------------------------------------------------------*/
-/*----------------------------------------------------------*/
+#BloccoProfilo{
+    border-style: solid;
+    border-width: 1px;
+    border-color:#ffffff;
+    background-color: #ffd03f;
+    color: white;
+    height: 50px;
+    width: 125px;
+    text-align: center;
+    line-height: 50px;
+    display:inline-block;
+    font-size:16pt;
+    font-weight:bold;
+}
+
+#Corrente{
+    border-style: solid;
+    border-width: 1px;
+    border-color:#ffffff;
+    background-color:#ffffff;
+    color: white;
+    height: 50px;   
+    width: 125px;
+    text-align: center;
+    line-height: 50px;
+    display:inline-block;
+    font-size:16pt;
+    font-weight:bold;
+}
+#NomeUtente{
+    
+    border-style: none;
+    text-align: center;
+    font-size:12pt;
+    line-height: 25px;
+}
+#BloccoSin{
+    border-style: solid;
+    border-color:#ffffff;
+    border-width: 1px;
+    margin-top: 55px;
+    width:100%;
+    background-color: #ffffff;
+}
+.Post{
+    padding:1px;
+    margin: 5px;
+    margin-bottom: 10px;
+    background-color: #ffffff;
+}
+#Posts{
+    
+    border-style: none;
+    border-color:#ffffff;
+    border-width: 2px;
+    display: inline-block;
+}
+
+#Stato{
+    border-style: none;
+    background-color: #ffffff;
+    width: 100%;
+}
+
+#bloccoCentrale{
+       background: #ffd03f;
+       border-style: solid;
+       border-color: #999999;
+       border-radius: 5px;
+       width: 400px;
+       height: 250px;
+       margin-left: auto;
+       margin-right: auto;
+}
+.acapo{
+    
+    display: block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+#DimBott{
+    
+    width: 150px;
+}
+#BloccoModProf{
+    border-style: solid;
+    border-color:#ffffff;
+    border-width: 1px;
+    float:left;
+    background-color: #ffffff;
+    margin:5px;
+    padding-left: 5px;
+    padding-top: 5px;
+}
+
+#BloccoModProf label, #BloccoModProf input{
+    width: 250px;
+    display: table-cell;
+    margin-bottom: 20px;
+}
+#UpButton{
+    width: 500px;
+    
+    
+}
+#foto{
+    float:left;
+}
+#bloccofoto{
+    float:left;
+    border-style: solid;
+    border-width: 1px;
+    width: 80px;
+    height: 80px;
+    margin:5px;
+    background-color:#ffffff;
+}
+}
+
+@media only screen and (min-width: 480px) and (max-width: 620px) {
+    
+#BloccoSup{
+    border-style: none;
+    background-color: #ffad1f;
+    color: #ffffff;
+    height: 52px;
+    margin: 0px;
+    padding: 0px;
+    margin-left:-8px;
+    margin-right:-8px;
+    margin-top:-8px;
+    font-size:0pt;
+}
+#BloccoTitolo{
+    border-style: solid;
+    border-color: #ffffff;
+    border-width: 1px;
+    background-color: #ffd03f;
+    color: white;
+    width: 125px;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+    display:inline-block;
+    font-size:16pt;
+    font-weight:bold;
+}
+#BloccoProfilo{
+    border-style: solid;
+    border-width: 1px;
+    border-color:#ffffff;
+    background-color: #ffd03f;
+    color: white;
+    height: 50px;
+    width: 125px;
+    text-align: center;
+    line-height: 50px;
+    display:inline-block;
+    font-size:16pt;
+    font-weight:bold;
+}
+
+#Corrente{
+    border-style: solid;
+    border-width: 1px;
+    border-color:#ffffff;
+    background-color:#ffffff;
+    color: white;
+    height: 50px;   
+    width: 125px;
+    text-align: center;
+    line-height: 50px;
+    display:inline-block;
+    font-size:16pt;
+    font-weight:bold;
+}
+#NomeUtente{
+    
+    border-style: none;
+    text-align: center;
+    font-size:12pt;
+    line-height: 25px;
+}
+#BloccoSin{
+    border-style: solid;
+    border-color:#ffffff;
+    border-width: 1px;
+    width:180px;
+    margin-left:-8px;
+    float:left;
+    background-color: #ffffff;
+}
+.Post{
+    padding:1px;
+    margin: 5px;
+    margin-bottom: 10px;
+    background-color: #ffffff;
+}
+#Posts{
+    
+    border-style: none;
+    border-color:#ffffff;
+    border-width: 2px;
+    display: inline-block;
+}
+#Stato{
+    border-style: none;
+    background-color: #ffffff;
+    width: 680px;
+}
+
+#bloccoCentrale{
+       background: #ffd03f;
+       border-style: solid;
+       border-color: #999999;
+       border-radius: 5px;
+       width: 400px;
+       height: 250px;
+       margin-left: auto;
+       margin-right: auto;
+}
+.acapo{
+    
+    display: block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+#DimBott{
+    
+    width: 150px;
+}
+#BloccoModProf{
+    border-style: solid;
+    border-color:#ffffff;
+    border-width: 1px;
+    float:left;
+    background-color: #ffffff;
+    margin:5px;
+    padding-left: 5px;
+    padding-top: 5px;
+}
+#BloccoModProf label, #BloccoModProf input{
+    width: 250px;
+    display: table-cell;
+    margin-bottom: 20px;
+}
+#UpButton{
+    width: 500px;
+    
+    
+}
+#foto{
+    float:left;
+}
+#bloccofoto{
+    float:left;
+    border-style: solid;
+    border-width: 1px;
+    width: 80px;
+    height: 80px;
+    margin:5px;
+    background-color:#ffffff;
+}
+}
+@media only screen and (min-width: 620px) and (max-width: 720px) {
+    
+#BloccoSup{
+    border-style: none;
+    background-color: #ffad1f;
+    color: #ffffff;
+    height: 52px;
+    margin: 0px;
+    padding: 0px;
+    margin-left:-8px;
+    margin-right:-8px;
+    margin-top:-8px;
+    font-size:0pt;
+    width: 100%;
+}
+#BloccoTitolo{
+    border-style: solid;
+    border-color: #ffffff;
+    border-width: 1px;
+    background-color: #ffd03f;
+    color: white;
+    width: 180px;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+    display:inline-block;
+    font-size:16pt;
+    font-weight:bold;
+}
+#BloccoProfilo{
+    border-style: solid;
+    border-width: 1px;
+    border-color:#ffffff;
+    background-color: #ffd03f;
+    color: white;
+    height: 50px;
+    width: 150px;
+    text-align: center;
+    line-height: 50px;
+    display:inline-block;
+    font-size:16pt;
+    font-weight:bold;
+}
+
+#Corrente{
+    border-style: solid;
+    border-width: 1px;
+    border-color:#ffffff;
+    background-color:#ffffff;
+    color: white;
+    height: 50px;   
+    width: 150px;
+    text-align: center;
+    line-height: 50px;
+    display:inline-block;
+    font-size:16pt;
+    font-weight:bold;
+}
+#NomeUtente{
+    
+    border-style: none;
+    text-align: center;
+    font-size:12pt;
+    line-height: 25px;
+}
+#BloccoSin{
+    border-style: solid;
+    border-color:#ffffff;
+    border-width: 1px;
+    width:180px;
+    margin-left:-8px;
+    float:left;
+    background-color: #ffffff;
+}
+.Post{
+    padding:1px;
+    margin: 5px;
+    margin-bottom: 10px;
+    background-color: #ffffff;
+    
+}
+#Posts{
+    
+    border-style: none;
+    border-color:#ffffff;
+    border-width: 2px;
+    display: inline-block;
+    width: auto;
+}
+
+#Stato{
+    border-style: none;
+    background-color: #ffffff;
+    width: 500px;
+    margin-top: 280px;
+}
+
+#bloccoCentrale{
+       background: #ffd03f;
+       border-style: solid;
+       border-color: #999999;
+       border-radius: 5px;
+       width: 400px;
+       height: 250px;
+       margin-left: auto;
+       margin-right: auto;
+}
+.acapo{
+    
+    display: block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+#DimBott{
+    
+    width: 150px;
+}
+#BloccoModProf{
+    border-style: solid;
+    border-color:#ffffff;
+    border-width: 1px;
+    float:left;
+    background-color: #ffffff;
+    margin:5px;
+    padding-left: 5px;
+    padding-top: 5px;
+}
+
+#BloccoModProf label, #BloccoModProf input{
+    width: 250px;
+    display: table-cell;
+    margin-bottom: 20px;
+}
+#bloccofoto{
+    float:left;
+    border-style: solid;
+    border-width: 1px;
+    width: 80px;
+    height: 80px;
+    margin:5px;
+    background-color:#ffffff;
+}
+}
+@media only screen and (min-width: 480px) and (max-width:680px) {
+    
+#BloccoSup{
+    border-style: none;
+    background-color: #ffad1f;
+    color: #ffffff;
+    height: 52px;
+    margin: 0px;
+    padding: 0px;
+    margin-left:-8px;
+    margin-right:-8px;
+    margin-top:-8px;
+    font-size:0pt;
+    width: 100%;
+}
+#BloccoTitolo{
+    border-style: solid;
+    border-color: #ffffff;
+    border-width: 1px;
+    background-color: #ffd03f;
+    color: white;
+    width: 180px;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+    display:inline-block;
+    font-size:16pt;
+    font-weight:bold;
+}
+#BloccoProfilo{
+    border-style: solid;
+    border-width: 1px;
+    border-color:#ffffff;
+    background-color: #ffd03f;
+    color: white;
+    height: 50px;
+    width: 150px;
+    text-align: center;
+    line-height: 50px;
+    display:inline-block;
+    font-size:16pt;
+    font-weight:bold;
+}
+
+#Corrente{
+    border-style: solid;
+    border-width: 1px;
+    border-color:#ffffff;
+    background-color:#ffffff;
+    color: white;
+    height: 50px;   
+    width: 150px;
+    text-align: center;
+    line-height: 50px;
+    display:inline-block;
+    font-size:16pt;
+    font-weight:bold;
+}
+#NomeUtente{
+    
+    border-style: none;
+    text-align: center;
+    font-size:12pt;
+    line-height: 25px;
+}
+#BloccoSin{
+    border-style: solid;
+    border-color:#ffffff;
+    border-width: 1px;
+    width:180px;
+    margin-left:-8px;
+    float:left;
+    background-color: #ffffff;
+}
+.Post{
+    padding:1px;
+    margin: 5px;
+    margin-bottom: 10px;
+    background-color: #ffffff;
+    
+}
+#Posts{
+    
+    border-style: none;
+    border-color:#ffffff;
+    border-width: 2px;
+    display: inline-block;
+    width: auto;
+}
+
+#Stato{
+    border-style: none;
+    background-color: #ffffff;
+    width: 500px;
+    margin-top: 280px;
+}
+
+#bloccoCentrale{
+       background: #ffd03f;
+       border-style: solid;
+       border-color: #999999;
+       border-radius: 5px;
+       width: 400px;
+       height: 250px;
+       margin-left: auto;
+       margin-right: auto;
+}
+.acapo{
+    
+    display: block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+#DimBott{
+    
+    width: 150px;
+}
+#BloccoModProf{
+    border-style: solid;
+    border-color:#ffffff;
+    border-width: 1px;
+    float:left;
+    background-color: #ffffff;
+    margin:5px;
+    padding-left: 5px;
+    padding-top: 5px;
+}
+
+#BloccoModProf label, #BloccoModProf input{
+    width: 250px;
+    display: table-cell;
+    margin-bottom: 20px;
+}
+#bloccofoto{
+    float:left;
+    border-style: solid;
+    border-width: 1px;
+    width: 80px;
+    height: 80px;
+    margin:5px;
+    background-color:#ffffff;
+}
+}
+@media only screen and (min-width: 720px) and (max-width: 1024px) {
+    
+#BloccoSup{
+    border-style: none;
+    background-color: #ffad1f;
+    color: #ffffff;
+    height: 52px;
+    margin: 0px;
+    padding: 0px;
+    margin-left:-8px;
+    margin-right:-8px;
+    margin-top:-8px;
+    font-size:0pt;
+    width: 100%;
+}
+#BloccoTitolo{
+    border-style: solid;
+    border-color: #ffffff;
+    border-width: 1px;
+    background-color: #ffd03f;
+    color: white;
+    width: 180px;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+    display:inline-block;
+    font-size:16pt;
+    font-weight:bold;
+}
+#BloccoProfilo{
+    border-style: solid;
+    border-width: 1px;
+    border-color:#ffffff;
+    background-color: #ffd03f;
+    color: white;
+    height: 50px;
+    width: 150px;
+    text-align: center;
+    line-height: 50px;
+    display:inline-block;
+    font-size:16pt;
+    font-weight:bold;
+}
+
+#Corrente{
+    border-style: solid;
+    border-width: 1px;
+    border-color:#ffffff;
+    background-color:#ffffff;
+    color: white;
+    height: 50px;   
+    width: 150px;
+    text-align: center;
+    line-height: 50px;
+    display:inline-block;
+    font-size:16pt;
+    font-weight:bold;
+}
+#NomeUtente{
+    float:right;
+    border-style: none;
+    text-align: center;
+    font-size:12pt;
+    line-height: 25px;
+}
+#BloccoSin{
+    border-style: solid;
+    border-color:#ffffff;
+    border-width: 1px;
+    width:180px;
+    margin-left:-8px;
+    float:left;
+    background-color: #ffffff;
+}
+.Post{
+    padding:1px;
+    margin: 5px;
+    margin-bottom: 10px;
+    background-color: #ffffff;
+}
+#Posts{
+    
+    border-style: none;
+    border-color:#ffffff;
+    border-width: 2px;
+    display: inline-block;
+}
+
+#Stato{
+    border-style: none;
+    background-color: #ffffff;
+    width: 680px;
+}
+
+#bloccoCentrale{
+       background: #ffd03f;
+       border-style: solid;
+       border-color: #999999;
+       border-radius: 5px;
+       width: 400px;
+       height: 250px;
+       margin-left: auto;
+       margin-right: auto;
+}
+.acapo{
+    
+    display: block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+#DimBott{
+    
+    width: 150px;
+}
+#BloccoModProf{
+    border-style: solid;
+    border-color:#ffffff;
+    border-width: 1px;
+    float:left;
+    background-color: #ffffff;
+    margin:5px;
+    padding-left: 5px;
+    padding-top: 5px;
+}
+
+#BloccoModProf label, #BloccoModProf input{
+    width: 250px;
+    display: table-cell;
+    margin-bottom: 20px;
+}
+#UpButton{
+    width: 500px;
+    
+    
+}
+#foto{
+    float:left;
+}
+#bloccofoto{
+    float:left;
+    border-style: solid;
+    border-width: 1px;
+    width: 80px;
+    height: 80px;
+    margin:5px;
+    background-color:#ffffff;
+}
+}
+@media only screen and (min-width: 1024px) {
+    
+#BloccoSup{
+    border-style: none;
+    background-color: #ffad1f;
+    color: #ffffff;
+    height: 52px;
+    margin: 0px;
+    padding: 0px;
+    margin-left:-8px;
+    margin-right:-8px;
+    margin-top:-8px;
+    font-size:0pt;
+    width: 100%;
+}
+#BloccoTitolo{
+    border-style: solid;
+    border-color: #ffffff;
+    border-width: 1px;
+    background-color: #ffd03f;
+    color: white;
+    width: 180px;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+    display:inline-block;
+    font-size:16pt;
+    font-weight:bold;
+}
+#BloccoProfilo{
+    border-style: solid;
+    border-width: 1px;
+    border-color:#ffffff;
+    background-color: #ffd03f;
+    color: white;
+    height: 50px;
+    width: 150px;
+    text-align: center;
+    line-height: 50px;
+    display:inline-block;
+    font-size:16pt;
+    font-weight:bold;
+}
+
+#Corrente{
+    border-style: solid;
+    border-width: 1px;
+    border-color:#ffffff;
+    background-color:#ffffff;
+    color: white;
+    height: 50px;   
+    width: 150px;
+    text-align: center;
+    line-height: 50px;
+    display:inline-block;
+    font-size:16pt;
+    font-weight:bold;
+}
+#NomeUtente{
+    float:right;
+    border-style: none;
+    text-align: center;
+    font-size:12pt;
+    line-height: 25px;
+}
+#BloccoSin{
+    border-style: solid;
+    border-color:#ffffff;
+    border-width: 1px;
+    width:180px;
+    margin-left:-8px;
+    float:left;
+    background-color: #ffffff;
+}
+.Post{
+    padding:1px;
+    margin: 5px;
+    margin-bottom: 10px;
+    background-color: #ffffff;
+}
+#Posts{
+    
+    border-style: none;
+    border-color:#ffffff;
+    border-width: 2px;
+    display: inline-block;
+}
+
+#Stato{
+    border-style: none;
+    background-color: #ffffff;
+    width: 680px;
+}
+
+#bloccoCentrale{
+       background: #ffd03f;
+       border-style: solid;
+       border-color: #999999;
+       border-radius: 5px;
+       width: 400px;
+       height: 250px;
+       margin-left: auto;
+       margin-right: auto;
+}
+.acapo{
+    
+    display: block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+#DimBott{
+    
+    width: 150px;
+}
+#BloccoModProf{
+    border-style: solid;
+    border-color:#ffffff;
+    border-width: 1px;
+    float:left;
+    background-color: #ffffff;
+    margin:5px;
+    padding-left: 5px;
+    padding-top: 5px;
+}
+
+#BloccoModProf label, #BloccoModProf input{
+    width: 250px;
+    display: table-cell;
+    margin-bottom: 20px;
+}
+#UpButton{
+    width: 500px;
+    
+    
+}
+#foto{
+    float:left;
+}
+#bloccofoto{
+    float:left;
+    border-style: solid;
+    border-width: 1px;
+    width: 80px;
+    height: 80px;
+    margin:5px;
+    background-color:#ffffff;
+}
+}
