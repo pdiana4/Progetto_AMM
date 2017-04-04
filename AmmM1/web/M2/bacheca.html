@@ -14,21 +14,32 @@ and open the template in the editor.
         <link href="style.css" rel="stylesheet" type="text/css"/>
     </head>
     <body>
-        <div class="relative" id="BloccoSup">
-            <h2 id="BloccoTitolo">Nerdbook</h2>
-            <h2 id="BloccoProfilo">Profilo</h2>
-            <h2 id="BloccoBacheca">Bacheca</h2>
+        <div id="BloccoSup" class="active">
+            <div id="NomeUtente">Pierluigi Diana<br><a href="login.html">logout</a></div>
+            <div id="BloccoTitolo"><a href="descrizione.html">Nerdbook</a></div>
+            <div id="BloccoProfilo"><a href="profilo.html">Profilo</a></div>
+            <div id="Corrente"><a href="bacheca.html">Bacheca</a></div>
+			
         </div> 
-        <div>
-            <nav>
-            <ol>
-                <li><a href="login.html">Effettua il login</a></li>
-                <li><a href="descrizione.html">Visualizza la descrizione</a></li>
-            </ol>
-        </nav>
+        <div id="BloccoSin">
+            <div id="Persone" class="barPers">
+                <p class="fontSin">Persone</p>
+                <p class="barPers">Pinco Pallino</p>
+                <p class="barPers">Riccardo Rossi</p>
+                <p class="barPers">Mario Bianchi</p>
+            </div>
+            <div id="Gruppi" class="barGrup">
+                <p class="fontSin">Gruppi</p>
+                <p class="barGrup">Mongolfieristi</p>
+                <p class="barGrup">Ritardatari</p>
+            </div>
+	</div>
+        <div id="Stato">
+            <p>Pierluigi Diana: Buongiornissimo</p>
         </div>
-            <div id="posts">
-                <div>
+            <div id="Posts">
+                
+                <div class="Post">
                     <h4>
                        <img title="fotoProfilo" alt="Foto Profilo" src="img/ruggero.jpg" width="50" height="60"> 
                        Ruggero De Ceglie
@@ -36,16 +47,16 @@ and open the template in the editor.
                     <p>Buonasera a tutti, siete meravijosi</p>
                 </div>
                 
-                <div>
+                <div  class="Post">
                     <h4> 
-                    <img title="fotoProfilo" alt="Foto Profilo" src="img/ruggero.jpg" width="50" height="60">
+                   <img title="fotoProfilo" alt="Foto Profilo" src="img/ruggero.jpg" width="50" height="60"> 
                      Ruggero De Ceglie
                     </h4>
                     <p>Io e mi fijo Gianluca<br>In vacanza</p>
-                    <img alt="Post con foto" src="img/vacanza.jpg">
+                    <img class="foto" alt="Post con foto" src="img/vacanza.jpg">
                 </div>
                
-                <div>
+                <div class="Post">
                     <h4> 
                     <img title="fotoProfilo" alt="Foto Profilo" src="img/ruggero.jpg" width="50" height="60">
                      Ruggero De Ceglie
@@ -53,6 +64,7 @@ and open the template in the editor.
                     <p>Visitate sto sito, ve prego</p>
                     <a href="https://www.w3schools.com/">Ecco er link</a>
                 </div>
+            
             </div>
     </body>
 </html>

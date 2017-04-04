@@ -2,36 +2,25 @@
 
 <html>
     <head>
-        <title>Accedi a Nerdbook</title>
+        <title>Login</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="keywords" content="HTML, AMM, Nerdbook, social">
         <meta name="description" content="Milestone 2">
         <link href="style.css" rel="stylesheet" type="text/css"/>
     </head>
-    <body>
+    <body id="log">
         <div>
-            <h1>Effettua il Login</h1>
+            <h1 id="h1centro">NerdBook</h1>
         </div>
-        <nav>
-            <ol>
-                <li><a href="bacheca.html">Vai alla bacheca</a></li>
-                <li><a href="descrizione.html">Leggi la descrizione</a></li>
-                <li><a href="profilo.html">Visualizza il profilo</a></li>
-            </ol>
-        </nav>
-        <div>
-            <h3>Inserisci qui le tue informazioni di accesso</h3>
-            <form method="post">
-                <label for="email_username">Email o username</label>
-                <input id="email_username" name="username" type="text" value="Username" size="20" maxlength="50" />
-                <label for="password">Password</label>
-                <input id="password" name="password" type="password" value="Password" size="20" maxlength="50" />
-                <input type="submit" value="Accedi">
+        <div id="bloccoCentrale">
+            <form method="post" class="acapo">
+                <label for="email_username" class="acapo">Email o username</label>
+                <input id="email_username" class="acapo" name="username" type="text" size="20" maxlength="50" />
+                <label for="password" class="acapo">Password</label>
+                <input id="password" class="acapo" name="password" type="password" size="20" maxlength="50" />
+                <button type="submit" id="DimBott">Accedi</button>
             </form> 
-        </div>
-        <div>
-            <h4>Se hai dubbi, consulta la pagina di descrizione</h4>
         </div>
     </body>
 </html>
