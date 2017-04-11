@@ -66,7 +66,6 @@ body{
     font-size:16pt;
     font-weight:bold;
 }
-
 #log{
     background-color: #e9e9e9;
 }
@@ -94,7 +93,6 @@ a:active {
 }
 .barGrup{
     border-style: none;
-    
 }
 .fontSin{
     font-size:14pt;
@@ -102,12 +100,9 @@ a:active {
 }
 .row{
     display:table-row;
-    
 }
 #UpButton{
     width: 500px;
-    
-    
 }
 #foto{
     float:left;
@@ -120,10 +115,8 @@ a:active {
     margin-right: auto;
     margin-top: 20px;
 }
-
 #DimBott{
-    
-    width: 150px;
+        width: 150px;
 }
 #BloccoModProf{
     border-style: solid;
@@ -135,7 +128,6 @@ a:active {
     padding-left: 5px;
     padding-top: 5px;
 }
-
 #BloccoModProf label, #BloccoModProf input{
     width: 250px;
     display: table-cell;
@@ -143,8 +135,6 @@ a:active {
 }
 #UpButton{
     width: 500px;
-    
-    
 }
 #foto{
     float:left;
@@ -158,7 +148,6 @@ a:active {
     margin:5px;
     background-color:#ffffff;
 }
-
 #bloccoCentrale{
        background: #ffd03f;
        border-style: solid;
@@ -174,10 +163,7 @@ a:active {
 /*----------------------------------------------------------*/
 
 @media only screen and (max-width: 480px) {
-    
-   
-#NomeUtente{
-    
+    #NomeUtente{
     border-style: none;
     text-align: center;
     font-size:12pt;
@@ -198,14 +184,12 @@ a:active {
     width: 100%;
 }
 #Posts{
-    
-    border-style: none;
+     border-style: none;
     border-color:#ffffff;
     border-width: 2px;
     display: inline-block;
     width: 100%;
 }
-
 #Stato{
     border-style: none;
     background-color: #ffffff;
@@ -222,12 +206,10 @@ a:active {
 #BloccoModProf label, #BloccoModProf input{
     width: 150px;
     display: table-cell;
-    
 }
 #UpButton{
     width: 360px;
 }
-
 }
 
 @media only screen and (min-width: 481px) and (max-width:720px)  {
@@ -255,23 +237,19 @@ a:active {
     width: auto;
 }
 #Posts{
-    
     border-style: none;
     border-color:#ffffff;
     border-width: 2px;
     display: inline-block;
     width: auto;
 }
-
 #Stato{
     border-style: none;
     background-color: #ffffff;
     width: 470px;
     margin-top: 320px;
 }
-
 #bloccofoto{
-    
     border-style: solid;
     border-width: 1px;
     width: 80px;
@@ -284,7 +262,6 @@ a:active {
     width: 180px;
     display: table-cell;
 }
-
 #BloccoModProf{
     border-style: solid;
     border-color:#ffffff;
@@ -296,11 +273,9 @@ a:active {
     padding-top: 5px;
     width: 100%;
 }
-
 }
 @media only screen and (min-width: 720px) and (max-width: 1024px) {
-    
-#BloccoSup{
+    #BloccoSup{
     border-style: none;
     background-color: #ffad1f;
     color: #ffffff;
@@ -379,22 +354,18 @@ a:active {
     background-color: #ffffff;
 }
 #Posts{
-    
     border-style: none;
     border-color:#ffffff;
     border-width: 2px;
     display: inline-block;
 }
-
 #Stato{
     border-style: none;
     background-color: #ffffff;
     width: 680px;
 }
-
 }
 @media only screen and (min-width: 1024px) {
-    
 #BloccoSup{
     border-style: none;
     background-color: #ffad1f;
@@ -436,7 +407,6 @@ a:active {
     font-size:16pt;
     font-weight:bold;
 }
-
 #Corrente{
     border-style: solid;
     border-width: 1px;
@@ -473,18 +443,15 @@ a:active {
     margin-bottom: 10px;
     background-color: #ffffff;
 }
-#Posts{
-    
+#Posts{   
     border-style: none;
     border-color:#ffffff;
     border-width: 2px;
     display: inline-block;
 }
-
 #Stato{
     border-style: none;
     background-color: #ffffff;
     width: 680px;
 }
-
 }
